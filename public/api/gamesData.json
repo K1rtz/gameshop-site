@@ -1,0 +1,67 @@
+[
+    {
+        "_id": 1,
+        "title": "League of Legends",
+        "description": "xdd",
+        "level": "Median",
+        "category": "MOBA",
+        "rating": 3,
+        "discount": 0.5,
+        "price": 79.0,
+        "img": "./assets/gameCovers/lol-bg.jpeg",
+        "trailer": "https://www.youtube.com/embed/vzHrj0MfHPY",
+        "active": true
+    },
+    {
+        "_id": 2,
+        "title": "Super Mario",
+        "description": "xdd",
+        "level": "Median",
+        "category": "MOBA",
+        "rating": 3,
+        "discount": 0.5,
+        "price": 79.0,
+        "img": "./assets/gameCovers/mario-bg.jpeg",
+        "trailer": "https://www.youtube.com/embed/vzHrj0MfHPY",
+        "active": true
+    },
+    {
+        "_id": 3,
+        "title": "Diablo III",
+        "description": "xdd",
+        "level": "Median",
+        "category": "MOBA",
+        "rating": 3,
+        "discount": 0.5,
+        "price": 79.0,
+        "img": "./assets/gameCovers/diablo-3-bg.jpeg",
+        "trailer": "https://www.youtube.com/embed/vzHrj0MfHPY",
+        "active": true
+    },
+    {
+        "_id": 4,
+        "title": "Dota II",
+        "description": "xdd",
+        "level": "Median",
+        "category": "MOBA",
+        "rating": 3,
+        "discount": 0.5,
+        "price": 79.0,
+        "img": "./assets/gameCovers/dota-2-bg.jpg",
+        "trailer": "https://www.youtube.com/embed/vzHrj0MfHPY",
+        "active": true
+    },
+    {
+        "_id": 5,
+        "title": "King of Fighters XV",
+        "description": "xdd",
+        "level": "Median",
+        "category": "MOBA",
+        "rating": 3,
+        "discount": 0.5,
+        "price": 79.0,
+        "img": "./assets/gameCovers/king-of-fighters-xv.jpeg",
+        "trailer": "https://www.youtube.com/embed/vzHrj0MfHPY",
+        "active": true
+    }
+]

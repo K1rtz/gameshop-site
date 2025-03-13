@@ -5,12 +5,12 @@ import socialsData from '../Data/SocialsData'
 import NavListItem from './NavListItem'
 
 
-function SideMenu() {
+function SideMenu({active}) {
     const [navData, setNavData] = useState(navListData);
     const [socData, setSocData] = useState(socialsData);
   return (
 
-    <div className = "sideMenu">
+    <div className = {`sideMenu ${active ? 'active' : undefined}`}>
         <a href = "#" className = 'logo'>
             <i className="bi bi-dpad-fill"></i>
             <span className="brand">Play</span>
