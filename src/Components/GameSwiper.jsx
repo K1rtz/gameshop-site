@@ -10,6 +10,7 @@ import 'swiper/css/navigation';
 import './GameSwiper.css'
 //SwiperModules
 import { EffectCoverflow, Navigation, Autoplay } from 'swiper/modules';
+import GameSlide from './GameSlide';
 
 function GameSwiper({games}) {
     const [active, setActive] = useState(false);
@@ -41,25 +42,8 @@ function GameSwiper({games}) {
     >
         {
             games.map(game=>(
-                <SwiperSlide key = {game._id}>
-                    <div className="gameSlider">
-                        <img src={game.img} alt="gameImage" />
-                        <div className="content">
-                            <h2>{game.title}</h2>
-                            <p>{game.description}</p>
-                            <div className="buttons">
-                                <a href="#" className="orderButton">Order now!</a>
-                                <a href="#" className={`playBtn ${active ? 'active' : undefined}`} onClick={handleToggleVideo}>
-                                    <span className="pause">
-                                        <i className="bi bi-pause-circle-fill"></i>
-                                    </span>
-                                    <span className="play">
-                                        <i className="bi bi-play-fill"></i>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                <SwiperSlide key={game.id}>
+                    <GameSlide game={game} active={active} toggleVideo={handleToggleVideo} />
                 </SwiperSlide>
             ))
         }
