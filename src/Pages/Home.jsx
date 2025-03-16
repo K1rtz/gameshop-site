@@ -2,9 +2,9 @@ import React from 'react'
 import './Home.css'
 import GameSwiper from '../Components/GameSwiper'
 import GameCard from '../Components/GameCard'
-function Home({games}) {
+function Home({games, reference}) {
   return (
-    <section id="home" className = "home active">
+    <section id="home" className = "home active" ref = {reference}>
         <div className="container-fluid">
             <div className="row">
                 <GameSwiper games = {games}/>
@@ -24,6 +24,7 @@ function Home({games}) {
             <div className="row">
                 {
                   games.slice(0,4).map(game=>(
+                    
                     <GameCard key = {games._id} game = {game}/>
                   ))
                 }
