@@ -2,7 +2,7 @@ import React from 'react'
 import './Home.css'
 import GameSwiper from '../Components/GameSwiper'
 import GameCard from '../Components/GameCard'
-function Home({games, reference}) {
+function Home({games, reference, sectionActive}) {
   return (
     <section id="home" className = "home active" ref = {reference}>
         <div className="container-fluid">
@@ -16,7 +16,7 @@ function Home({games, reference}) {
                 </h2>
               </div>
               <div className="col-lg-6 d-flex justify-content-end align-items-center">
-                <a href="#" className ="viewMore">
+                <a href="#" className ="viewMore" onClick = {()=>sectionActive('categories')}>
                 View More Games <i className="bi bi-arrow-right"></i>
                 </a>
               </div>

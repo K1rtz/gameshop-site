@@ -30,6 +30,7 @@ function Categories({games, reference}) {
 
   const [text, setText] = useState('');
   const handleSearchGames = e =>{
+    setText(e.target.value);
     setData(games.filter(game=>{return game.title.toLowerCase().includes(e.target.value.toLowerCase())}));
   }
 

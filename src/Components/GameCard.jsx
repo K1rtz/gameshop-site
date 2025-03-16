@@ -14,6 +14,17 @@ function GameCard({game}) {
         setLibrary(library.filter(item => item._id !== game._id))
     }
 
+    const handleShoppingBag = game =>{
+
+        if(bag.includes(game)){
+            return
+        }
+        else{
+            setBag([...bag, game])
+        }
+
+    }
+
   return (
     <div className="col-xl-3 col-lg-4 col-md-6">
        <div className="gameCard">
@@ -44,7 +55,10 @@ function GameCard({game}) {
                 ${((1-game.discount)*game.price).toFixed(2)}
             </span>
         </div>
-        <a href="#" className="addBag">
+
+        <a href="#" className="addBag"
+        onClick = {() => handleShoppingBag(game)}
+        >
             <i className="bi bi-bag-plus-fill"></i>
         </a>
        </div>
