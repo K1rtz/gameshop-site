@@ -1,4 +1,4 @@
-React Game Store is a simple frontend website for selling games, created using React and Bootstrap.
+Game Store is a simple frontend website for selling games, created using React and Bootstrap.
 This project simulates the basic functionalities of an online game store.
 
 ![webgames1](https://github.com/user-attachments/assets/8f48a2df-89ef-46c0-911f-0b7e8c9c8b8b)
