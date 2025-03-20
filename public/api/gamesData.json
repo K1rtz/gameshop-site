@@ -2,7 +2,7 @@
   {
     "_id": 1,
     "title": "League of Legends",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio non nobis, molestiae eum quod qui",
+    "description": "Master your champion, outsmart your opponents, and work with your team to destroy the enemy’s Nexus and claim victory!",
     "level": "Median",
     "category": "MOBA",
     "rating": 3,
@@ -15,7 +15,7 @@
   {
     "_id": 2,
     "title": "Mario Kart 8 Deluxe",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio non nobis, molestiae eum quod qui",
+    "description": "Race against friends in Mario Kart 8 Deluxe, where thrilling speed and wild power-ups lead to nonstop fun and chaos!",
     "level": "Entry",
     "category": "Racing",
     "rating": 3,
@@ -29,7 +29,7 @@
   {
     "_id": 3,
     "title": "Dota II",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio non nobis, molestiae eum quod qui",
+    "description": "Team up in Dota 2 for intense strategy, epic battles, and the fight to destroy the enemy’s Ancient!",
     "level": "Median",
     "category": "MOBA",
     "rating": 4,
@@ -42,7 +42,7 @@
   {
     "_id": 4,
     "title": "King of Fighters XV",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio non nobis, molestiae eum quod qui",
+    "description": "Unleash powerful combos and battle legendary fighters in King of Fighters IV for intense, fast-paced combat!",
     "level": "Entry",
     "category": "Fighting",
     "rating": 3,
@@ -56,7 +56,7 @@
   {
     "_id": 5,
     "title": "Forza Horizon 5",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio non nobis, molestiae eum quod qui",
+    "description": "Experience thrilling open-world racing and explore stunning landscapes in Forza Horizon 5, where every drive is an adventure!",
     "level": "High",
     "category": "Racing",
     "rating": 4,
@@ -69,7 +69,7 @@
   {
     "_id": 6,
     "title": "Halo Infinite",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio non nobis, molestiae eum quod qui",
+    "description": "Step into the fight as Master Chief in Halo Infinite, where epic battles and a gripping story await in a vast, alien world!",
     "level": "Median",
     "category": "Battle",
     "rating": 4,
@@ -82,7 +82,7 @@
   {
     "_id": 7,
     "title": "Fortnite Spider-Man",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio non nobis, molestiae eum quod qui",
+    "description": "Jump into the action in Fortnite, where you can build, battle, and swing into victory with the iconic Spider-Man skin!",
     "level": "Entry",
     "category": "Battle",
     "rating": 3,
@@ -95,7 +95,7 @@
   {
     "_id": 8,
     "title": "Diablo III",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio non nobis, molestiae eum quod qui",
+    "description": "Embark on a dark, thrilling quest in Diablo III, battling demons and collecting loot in a fight to save the world!",
     "level": "High",
     "category": "RPG",
     "rating": 5,
